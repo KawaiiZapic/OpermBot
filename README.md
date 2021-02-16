@@ -10,7 +10,7 @@ Largely inspried by [Shizuku](https://github.com/RikkaApps/Shizuku).
 通过`OpermBot`的权限管理, 群主只需赋予机器人必要的权限, 而不用给予完整的管理员权限, 极大的优化了机器人的权限结构, 大幅降低了意外操作的可能性, 特别是在群内有多个不同功能的Bot时效果显著.  
 例如, 某个Bot需要修改群名称以实现Tag功能, 通过`OpermBot API`, 这个Bot不再需要完整的管理员权限, 仅需要赋予修改群信息的权限即可, 这个Bot除了能修改群名片以外, 权限都与普通群成员一致.  
 
-`OpermBot API`基于`HTTP`或`Websocket`实现,保证其易用性和简易性.
+`OpermBot API`基于`HTTP`/`Websocket`/`QQ私聊`实现,保证其易用性和简易性.
 
 ---------
 ### 题外话
